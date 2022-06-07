@@ -1,24 +1,21 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
- * main - print _putchar followed by new line
+ * main - Prints _putchar followed by new line
  *
  * Return: Always (Success)
  */
 int main(void)
 {
-	char c[] = "_putchar";
-	int length, i;
-
-	length = strlen(c);
-
-	for (i = 0; i < length; i++)
-	{
-		_putchar(c[i]);
-	}
-
-	_putchar('\n');
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar9'\n');
 
 	return (0);
 }
