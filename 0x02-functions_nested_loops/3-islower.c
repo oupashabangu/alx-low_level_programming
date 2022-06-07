@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - function to check for lower case
+ * _islower - function to check for lower case charector
  *
  * @c: is the int that will use for argument of the function
  *
@@ -13,6 +13,6 @@ int_islower(int c)
 	{
 		return (1);
 	}
-
-	return (0);
+	else
+		return (0);
 }
