@@ -5,14 +5,12 @@
  *
  * @n: interger arguments
  *
- * Retur: absolute value
+ * Return: int or int times negative
  */
 int _abs(int n)
 {
 	if (n > 0)
 		return (n);
-	else if (n < 0)
-		return (-n);
-
-	return (0);
+	else
+		return (n * -1);
 }
