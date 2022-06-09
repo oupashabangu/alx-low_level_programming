@@ -5,11 +5,9 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- *
- * largest_number - returns the largest of three integers
- *
  * Return: largest number
  */
+
 int largest_number(int a, int b, int c)
 {
 	int largest;
