@@ -5,6 +5,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
+ *
  * description: prints largest of three integers
  *
  * Return: largest number
