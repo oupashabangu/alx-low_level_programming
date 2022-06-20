@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * print_diagsum - function that prints the sum of two diagonals
- * @a: integer array
- * @size: size of array
+ * print_diagsums - function that print sum of two diagonals
+ * @a: the matrix
+ * @size: the size
  *
  * Return: void
  */
-void print_diagsum(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int x, sum1 = 0, sum2 = 0;
 
