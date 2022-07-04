@@ -3,7 +3,7 @@
 /**
  * main - print file name
  *
- * return: void
+ * return: 0
  */
 int main(void)
 {
